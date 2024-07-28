@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PizzeriaAPI.Application\PizzeriaAPI.Application.csproj" />
     <ProjectReference Include="..\PizzeriaAPI.ServiceDefaults\PizzeriaAPI.ServiceDefaults.csproj" />
   </ItemGroup>
 
