@@ -10,7 +10,6 @@ public static class ApiHandlers
         var query = new GetMenuQuery();
         var result = await mediator.Send(query, token);
 
-        //TODO use Result pattern and add handling for error path
-        return TypedResults.Ok(result);
+        return result.ToHttpResult();
     }
 }

@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzeriaAPI.AppHost", "PizzeriaAPI.AppHost\PizzeriaAPI.AppHost.csproj", "{04C85E26-6161-4967-8E86-473F277013D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzeriaAPI.AppHost", "PizzeriaAPI.AppHost\PizzeriaAPI.AppHost.csproj", "{04C85E26-6161-4967-8E86-473F277013D5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzeriaAPI.ServiceDefaults", "PizzeriaAPI.ServiceDefaults\PizzeriaAPI.ServiceDefaults.csproj", "{C321967F-DACD-46A9-9C3E-340348946333}"
 EndProject
@@ -12,9 +12,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzeriaAPI.Web", "Pizzeria
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzeriaAPI.Tests", "PizzeriaAPI.Tests\PizzeriaAPI.Tests.csproj", "{710FD6C6-1087-4227-AEB9-2DB2678F0D64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzeriaAPI.Application", "PizzeriaAPI.Application\PizzeriaAPI.Application.csproj", "{C1AEE31D-0EA8-4234-A4A9-244CF2F5DF51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzeriaAPI.Application", "PizzeriaAPI.Application\PizzeriaAPI.Application.csproj", "{C1AEE31D-0EA8-4234-A4A9-244CF2F5DF51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzeriaAPI.Domain", "PizzeriaAPI.Domain\PizzeriaAPI.Domain.csproj", "{630E3CDB-C4F0-43EB-9F3F-62D7DED8E0BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzeriaAPI.Domain", "PizzeriaAPI.Domain\PizzeriaAPI.Domain.csproj", "{630E3CDB-C4F0-43EB-9F3F-62D7DED8E0BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
